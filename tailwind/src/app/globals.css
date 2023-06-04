@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* layer is used to apply custom css */
+@layer base{  
+  html {
+    @apply bg-red-200; 
+    @apply text-blue-500 font-semibold ;
+  }
+}
+
+
+/* plugins are js functions which are used to apply css using js */
